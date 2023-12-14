@@ -1,0 +1,241 @@
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 120px;
+
+
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    display: inline-block;
+    font-style: none;
+    color: wheat;
+    padding: 10px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: wheat;
+    font-family: 'kanit', sans-serif;
+}
+nav ul li a:hover {
+    background-color: bisque;
+    color: black;
+    border: 2px  solid ;
+}
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 60px;
+}
+.introtext {
+    flex: 1;
+}
+.introtext h1 {
+    font-family: 'silkscreen';
+    color: #72bf6a;
+    font-size: 1.8rem;
+}
+.introtext p {
+    font-family: 'kanit';
+    color: bisque;
+    padding: 10px 0px;
+}
+.introimg {
+    flex: 1;
+}
+.introimg img {
+    width: 70%;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 60px;
+}
+.abouttext {
+    flex: 1;
+}
+.abouttext h1 {
+    font-family: 'silkscreen';
+    color: #72bf6a;
+    font-size: 1.8rem;
+}
+.abouttext h3 {
+    font-family: 'silkscreen';
+    color: #72bf6a;
+    font-size: 1.5rem;
+}
+.abouttext p {
+    font-family: 'kanit';
+    color: wheat;
+    padding: 10px 0px;
+}
+.aboutpic {
+    flex: 1;
+}
+.aboutpic img {
+    width: 150%;
+}
+.skills {
+    padding: 40px 60px;
+
+}
+.skills h1 {
+    text-align: center;
+    font-family: silkscreen;
+    color: #72bf6a;
+    margin-bottom: 5vh;
+    font-size: 2rem;
+}
+.cards {
+    display: flex;
+    gap: 5vh;
+    justify-content: center;
+    align-content: center;
+    
+}
+.card {
+    width: 300px;
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.cardimg img {
+    width: 100px;
+}
+.card h3 {
+    color: whitesmoke;
+}
+.card p {
+    color: whitesmoke;
+}
+.card a {
+    text-decoration: none;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    display: inline-block;
+    color: black;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+.cards a:hover {
+    background-color: black;
+    color: whitesmoke;
+    border: 2px  solid ;
+}
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 60px;
+    text-align: center;
+}
+.blogtext {
+    flex: 1;
+}
+.blogtext h1 {
+    font-family: 'silkscreen';
+    color: #72bf6a;
+    font-size: 2rem;
+}
+.blogtext p {
+    font-family: 'kanit';
+    color: bisque;
+    padding: 10px 0px;
+}
+.blogtext a {
+    text-decoration: none;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    display: inline-block;
+    color: black;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+.blogtext a:hover {
+    background-color: black;
+    color: whitesmoke;
+    border: 2px  solid ;
+}
+.blogpic {
+    flex: 1;
+}
+.blogpic img {
+    width: 70%;
+}
+.contact {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 60px;
+
+}
+.contact h2{
+        font-family: 'silkscreen';
+        color: #72bf6a;
+        font-size: 2rem;
+}
+.contact b {
+    font-family: 'kanit';
+    color: bisque;
+    padding: 10px 0px;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+footer {
+  text-align: center;
+  font-family: 'silkscreen',sans serif;
+  font-size: 1.5rem;
+  color: beige;
+  padding: 40px 60px;
+}
+@media only screen and (max-width: 450px){
+    html{
+        font-size: 16px;
+    }
+    
+}
+@media only screen and (min-width: 450px) and (max-width:850px){
+    html{
+        font-size: 17px;
+    }
+    
+}
+@media only screen and (min-width:850px) and (max-width: 1250px){
+    html {
+        font-size: 20px;
+    }
+    
+}
+@media only screen and (min-width: 1250px){
+    html {
+        font-size: 20px;
+    }
+    
+}
